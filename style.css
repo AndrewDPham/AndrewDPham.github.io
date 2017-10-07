@@ -38,6 +38,7 @@ body{
 #nav {
     background-color: #fff;
     padding: -30px;
+    list-style-type: none;
 }
 
 h1{
@@ -90,7 +91,6 @@ h3{
 #left{
     text-align: left;
     width: 30%;
-    float: left;
     display: inline-block;
     margin-right: 3%;
     margin-left: 1%;
@@ -143,8 +143,70 @@ h3{
     width: 100%;
     height: 100px;
 }
+#confirmation{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-size: 24px;
+}
 #facts{
+    margin: 0px 10px 0px -30px;
+    padding: -10px;
+    width: 105%;
+    color: white;
     background-color: #1b5438;
+}
+#table{
+    text-align: left;
+    width: 30%;
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 1%;
+    font-family: "Roboto";
+    color: white;
+    font-size: 140%;
+}
+#hobbies{
+    text-align: left;
+    width: 30%;
+    display: inline-block;
+    margin-left: 3%;
+    font-family: "Roboto";
+    color: white;
+    font-size: 140%;
+    list-style-position: inside;
+}
+#song{
+    text-align: left;
+    width: 30%;
+    display: inline-block;
+    font-family: "Roboto";
+    color: white;
+    font-size: 140%;
+    list-style-position: inside;
+}
+#notes{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+#projects{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+#in{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#good{
+    width: 30%;
+    display: inline-block;
+    margin-left: 20%;
+}
+#status{
+    width: 45%;
+    display: inline-block;
 }
 
 #bottom{
@@ -165,6 +227,7 @@ h3{
 #social{
     text-align: center;
 }
+
 hr{ 
   border: 0;
   height: 1px; 
@@ -174,16 +237,19 @@ hr{
   margin: auto;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
+table{
+    border-collapse: collapse;
 }
-
-li {
-    float: left;
+th{
+    background-color: #3cbc7d;
+    color: white;
+}
+tr{
+    background-color: white;
+    color: black;
+}
+tr:hover{
+    background-color: #ddeaff;
 }
  
 li a {
@@ -196,11 +262,15 @@ li a {
     padding-right: 20px;
     text-decoration: none;
     background-color: #ffffff;
+    float: left;
 }
 
 li a:hover {
     color: black;
 } 
+h1:hover{
+    color: grey;
+}
 
 #cover{
     margin: -10px;
@@ -208,5 +278,4 @@ li a:hover {
 }
 
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -Jhin
+
