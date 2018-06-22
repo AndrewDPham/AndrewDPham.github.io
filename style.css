@@ -227,6 +227,7 @@ h3{
     margin-left: 20%;
 }
 #status{
+    top: 25px;
     width: 45%;
     display: inline-block;
 }
@@ -290,9 +291,7 @@ li a {
 li a:hover {
     color: black;
 } 
-h1:hover{
-    color: grey;
-}
+
 h4 a {
     color: black;
 }
